@@ -13,13 +13,13 @@
 * Create `.tfvars` file for your secret variables (for each environment):
 
 ## Basic commands
-* clone the url using 'git clone'
-Run the commands below:
-* terraform init
-* terraform fmt
-* terraform validate 
-* terraform apply
-* it will ask you to enter password, username, and your ip address and the write "yes"
+* `terraform` - make sure terraform CLI is installed
+* `terraform init` - initialize terraform Azure modules
+* `terraform fmt` - automatically updates configurations in the current directory for readability and consistency
+* `terraform validate` - make sure your configuration is syntactically valid and internally consistent
+* `terraform apply` or `terraform apply main.tfplan` - command to apply the infrastructure changes
+* `terraform destroy` - remove the infrastructure
+
 * now you will see in your azure portal your resource group with all the resources that your created.
 * after you did it you can install the  Weight Tracker application in your VM'S.
 
