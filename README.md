@@ -1,4 +1,5 @@
-# CI-_CD_Terraform  ![image](https://user-images.githubusercontent.com/71599740/140194394-8d8b8fe8-a7d6-4b2b-938e-e5b00dea3bd4.png)
+![image](https://user-images.githubusercontent.com/71599740/140194394-8d8b8fe8-a7d6-4b2b-938e-e5b00dea3bd4.png)
+# CI-_CD_Terraform  
 
 
 ## Requirements and Installations:
