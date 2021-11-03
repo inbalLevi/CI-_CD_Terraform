@@ -8,11 +8,11 @@
 * Download and install [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
 * Type `az login` and login to Azure.
 
-## Configuration
+## Configuration:
 * Use `azurerm` as a [provider](https://www.terraform.io/docs/language/providers/configuration.html).
-* Create `.tfvars` file for your secret variables (for each environment):
+* Create `.tfvars` file for your secret variables (for each environment - staging/production)
 
-## Basic commands
+## Basic commands:
 * `terraform` - make sure terraform CLI is installed
 * `terraform init` - initialize terraform Azure modules
 * `terraform fmt` - automatically updates configurations in the current directory for readability and consistency
@@ -23,8 +23,14 @@
 * now you will see in your azure portal your resource group with all the resources that your created.
 * after you did it you can install the  Weight Tracker application in your VM'S.
 
+![image](https://user-images.githubusercontent.com/71599740/140195050-03fbd26b-8c20-45b9-bb7e-61bc1c5f6d2c.png)
 
-# Node.js Weight Tracker
+
+## Emphasis:
+* Create a vm controller that does not belong to the load balancer, which can communicate with all machines.
+* Create 2 vnet one per environment - staging / production, and the connect vnet via peering [vnet-perring] (https://www.youtube.com/watch?v=wVWWthd8fzg)
+
+# Node.js Weight Tracker:
 
 ![Demo](docs/build-weight-tracker-app-demo.gif)
 
