@@ -1,5 +1,5 @@
 ![image](https://user-images.githubusercontent.com/71599740/140194394-8d8b8fe8-a7d6-4b2b-938e-e5b00dea3bd4.png)
-# CI-_CD_Terraform  
+# CI_CD_Terraform  <img src="https://user-images.githubusercontent.com/71599740/140194394-8d8b8fe8-a7d6-4b2b-938e-e5b00dea3bd4.png" width="40" height="40"/>  
 
 
 ## Requirements and Installations:
