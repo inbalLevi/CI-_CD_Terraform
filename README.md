@@ -23,12 +23,11 @@
 * now you will see in your azure portal your resource group with all the resources that your created.
 * after you did it you can install the  Weight Tracker application in your VM'S.
 
-![image](https://user-images.githubusercontent.com/71599740/140195050-03fbd26b-8c20-45b9-bb7e-61bc1c5f6d2c.png)
-
-
 ## Emphasis:
 * Create a vm controller that does not belong to the load balancer, which can communicate with all machines.
 * Create 2 vnet one per environment - staging / production, and the connect vnet via peering [vnet-perring] (https://www.youtube.com/watch?v=wVWWthd8fzg)
+
+![image](https://user-images.githubusercontent.com/71599740/140195050-03fbd26b-8c20-45b9-bb7e-61bc1c5f6d2c.png)
 
 # Node.js Weight Tracker:
 
