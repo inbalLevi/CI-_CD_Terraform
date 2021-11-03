@@ -1,4 +1,4 @@
-# CI_CD_Terraform  <img src="https://user-images.githubusercontent.com/71599740/140194394-8d8b8fe8-a7d6-4b2b-938e-e5b00dea3bd4.png" width="100" height="100"/>  
+# CI_CD_Terraform  <img src="https://user-images.githubusercontent.com/71599740/140194394-8d8b8fe8-a7d6-4b2b-938e-e5b00dea3bd4.png" width="130" height="100"/>  
 
 
 ## Requirements and Installations:
